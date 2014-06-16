@@ -21,6 +21,7 @@
 		FDCDE170194E9A5500554C76 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCDE152194E9A5500554C76 /* UIKit.framework */; };
 		FDCDE178194E9A5500554C76 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDCDE176194E9A5500554C76 /* InfoPlist.strings */; };
 		FDCDE17A194E9A5500554C76 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCDE179194E9A5500554C76 /* Git_TestTests.m */; };
+		FDCDE185194EA00A00554C76 /* RMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCDE184194EA00A00554C76 /* RMTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		FDCDE175194E9A5500554C76 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		FDCDE177194E9A5500554C76 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FDCDE179194E9A5500554C76 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		FDCDE183194EA00A00554C76 /* RMTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMTest.h; sourceTree = "<group>"; };
+		FDCDE184194EA00A00554C76 /* RMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		FDCDE142194E9A5500554C76 = {
 			isa = PBXGroup;
 			children = (
+				FDCDE183194EA00A00554C76 /* RMTest.h */,
+				FDCDE184194EA00A00554C76 /* RMTest.m */,
 				FDCDE154194E9A5500554C76 /* Git Test */,
 				FDCDE173194E9A5500554C76 /* Git TestTests */,
 				FDCDE14D194E9A5500554C76 /* Frameworks */,
@@ -252,6 +257,7 @@
 			files = (
 				FDCDE15B194E9A5500554C76 /* main.m in Sources */,
 				FDCDE15F194E9A5500554C76 /* RMAppDelegate.m in Sources */,
+				FDCDE185194EA00A00554C76 /* RMTest.m in Sources */,
 				FDCDE165194E9A5500554C76 /* RMViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
